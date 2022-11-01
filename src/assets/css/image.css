@@ -1,33 +1,33 @@
-.image__inner{
+.image__inner {
     display: flex;
     justify-content: space-between;
 }
-.image{
+.image {
     width: 49%;
     color: #fff;
     padding: 200px 30px 30px 30px;
     box-sizing: border-box;
 }
-.image.img1{
+.image.img1 {
     background: url(../img/image_type01_01_1.jpg) no-repeat center;
     background-size: cover;
     border-radius: 8px;
     box-sizing: border-box;
 }
-.image.img2{
+.image.img2 {
     background: url(../img/image_type01_02_1.jpg) no-repeat center;
     background-size: cover;
     border-radius: 8px;
     box-sizing: border-box;
 }
-.image__title{
+.image__title {
     font-size: 32px;
     margin-bottom: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.image__desc{
+.image__desc {
     font-size: 16px;
     margin-bottom: 10px;
     line-height: 1.5;
@@ -37,27 +37,28 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     font-weight: 300;
+    white-space: pre-wrap;
 }
-.image__btn{
+.image__btn {
     font-size: 16px;
     color: #fff;
-    background-color: #C38687;
+    background-color: #c38687;
     border-radius: 20px;
     display: inline-block;
     padding: 10px 20px;
 }
-.image__btn:hover{
+.image__btn:hover {
     background-color: #eeaeaf;
     transition: all 0.3s ease;
 }
 
-.image__btn.yellow{
-    background-color: #AB675F;
+.image__btn.yellow {
+    background-color: #ab675f;
 }
 .image__btn.yellow:hover {
     background-color: #ee9187;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .image__inner {
         display: block;
     }
@@ -74,7 +75,7 @@
         margin-right: 4px;
         padding: 8px;
     } */
-    .image__title{
+    .image__title {
         font-size: 25px;
     }
 
@@ -84,8 +85,8 @@
         padding: 8px 15px;
     }
 }
-@media (max-width: 480px){
-    .image__inner{
+@media (max-width: 480px) {
+    .image__inner {
         display: block;
     }
     .image__desc {
